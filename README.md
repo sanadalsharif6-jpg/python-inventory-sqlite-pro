@@ -62,13 +62,3 @@ python app.py export --path inventory_report.csv
 ```bash
 python -m unittest
 ```
-
-## Publish to GitHub
-
-```bash
-git init -b main
-git add .
-git commit -m "Initial commit"
-git remote add origin YOUR_REPOSITORY_URL
-git push -u origin main
-```
